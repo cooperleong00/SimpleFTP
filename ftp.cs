@@ -254,6 +254,16 @@ namespace SimpleFTP
             return Int32.Parse(group[4])*256 + Int32.Parse(group[5]);
         }
 
+        public void Download(string file_name)
+        {
+
+        }
+
+        public void Upload(string file_name)
+        {
+
+        }
+
         /// <summary>
         /// 设置输出log的listbox控件
         /// </summary>
